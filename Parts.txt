@@ -1,0 +1,31 @@
+//MPU-9250
+ICM-20608 (dk 1428-1052-1-ND)
+STM32F405RGT6 (dk 497-11767-ND)
+nRF24L01P
+LTC3553 (dk LTC3553EUD#PBF-ND)
+//LTC4063 (dk LTC4063EDD#PBF-ND)
+LED 0603 (dk 475-2512-1-ND)
+LP2992 LDO (dk LP2992AIM5-3.3/NOPBCT-ND)
+Ferrite 0603 600ohm @ 100MHz (dk MH1608-601YCT-ND)
+Inductor 0603 2.2uH (dk 445-3164-1-ND)
+Chip antenna (dk 712-1005-1-ND)
+BAT54WS SOD-323 (dk BAT54WS-TPCT-ND)
+ST-Link v2 (dk 497-10484-ND)
+ST-Link JTAG 20-10 pin converter (dk 1188-1016-ND)
+Debug connector (dk H121938CT-ND) på kort
+Debug connector (dk H124689CT-ND) på adapter
+Crystal (dk SER3628CT-ND)
+Caps 100nF 0402 (dk 1276-1001-1-ND)
+Caps 470nF 0402 (dk 445-4996-1-ND)
+Caps 33nF 0402 (dk 1276-1177-1-ND)
+Caps 10nF 0402 (dk 1276-1051-1-ND)
+Caps 1nF 0402 (dk 1276-1032-1-ND)
+Caps 4.7uF 0603 (dk 1276-2087-1-ND)
+Caps 2.2uF 0402 (dk 1276-1469-1-ND)
+Caps 1uF 0402 (dk 1276-1444-1-ND)
+Caps 10uF 0805 (dk 1276-2402-1-ND)
+Caps 22uF 0805 (dk 1276-2412-1-ND)
+
+Header female 2mm 2x5 (dk H10963-ND)
+
+Resistors 0402 ...
