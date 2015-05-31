@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-25 BZR 5623)-product   date = Lördag 30 Maj 2015 13:54:34
+Cmp-Mod V01 Created by Cvpcb (2015-04-25 BZR 5623)-product   date = Söndag 31 Maj 2015 18:10:37
 
 BeginCmp
 TimeStamp = /5547C4E8/554904EA;
@@ -351,6 +351,13 @@ IdModule  = molexNoHole:molexNoHole-87832-10;
 EndCmp
 
 BeginCmp
+TimeStamp = /5547C6EF/556B5A07;
+Reference = P12;
+ValeurCmp = CONN_02X06;
+IdModule  = Connect:GS_6x2;
+EndCmp
+
+BeginCmp
 TimeStamp = /5547C6EF/554F8C59;
 Reference = Q1;
 ValeurCmp = IRFML8244;
@@ -486,6 +493,13 @@ EndCmp
 BeginCmp
 TimeStamp = /5547C6EF/5569919A;
 Reference = R16;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5547C6EF/556B7B7B;
+Reference = R17;
 ValeurCmp = 100;
 IdModule  = Resistors_SMD:R_0402;
 EndCmp
