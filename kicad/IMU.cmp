@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-25 BZR 5623)-product   date = Söndag 31 Maj 2015 18:10:37
+Cmp-Mod V01 Created by Cvpcb (2015-04-25 BZR 5623)-product   date = Måndag 01 Juni 2015 19:44:12
 
 BeginCmp
 TimeStamp = /5547C4E8/554904EA;
@@ -228,6 +228,20 @@ BeginCmp
 TimeStamp = /5547C5DB/5547D09A;
 Reference = D5;
 ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5547C5DB/556C8853;
+Reference = D6;
+ValeurCmp = TXLED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5547C5DB/556C8922;
+Reference = D7;
+ValeurCmp = RXLED;
 IdModule  = LEDs:LED-0603;
 EndCmp
 
@@ -501,6 +515,34 @@ BeginCmp
 TimeStamp = /5547C6EF/556B7B7B;
 Reference = R17;
 ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5547C6EF/556CB1DF;
+Reference = R18;
+ValeurCmp = 100k;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5547C6EF/556C995B;
+Reference = R19;
+ValeurCmp = 100k;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5547C5DB/556C8D94;
+Reference = R20;
+ValeurCmp = 2k2;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5547C5DB/556C8DEC;
+Reference = R21;
+ValeurCmp = 2k2;
 IdModule  = Resistors_SMD:R_0402;
 EndCmp
 
