@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-25 BZR 5623)-product   date = Måndag 01 Juni 2015 19:44:12
+Cmp-Mod V01 Created by Cvpcb (2015-04-25 BZR 5623)-product   date = Tisdag 02 Juni 2015 19:34:12
 
 BeginCmp
 TimeStamp = /5547C4E8/554904EA;
@@ -185,15 +185,8 @@ EndCmp
 BeginCmp
 TimeStamp = /5547C5DB/554CE13A;
 Reference = C27;
-ValeurCmp = 10n;
+ValeurCmp = 1u;
 IdModule  = Capacitors_SMD:C_0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /5547C5DB/554CE24C;
-Reference = C28;
-ValeurCmp = 10u;
-IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
@@ -582,9 +575,9 @@ IdModule  = Housings_DFN_QFN:UQFN-20-1EP_3x3mm_Pitch0.4mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /5547C5DB/554CDDB8;
+TimeStamp = /5547C5DB/556DEDBE;
 Reference = U6;
-ValeurCmp = LP2992;
+ValeurCmp = TLV70033;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
 EndCmp
 

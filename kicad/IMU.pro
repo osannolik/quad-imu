@@ -1,4 +1,4 @@
-update=Tisdag 26 Maj 2015 18:55:40
+update=Tisdag 02 Juni 2015 19:31:34
 last_client=kicad
 [general]
 version=1
@@ -76,9 +76,9 @@ LibName67=libs/open-project
 LibName68=libs/ltc3553
 LibName69=libs/icm20608
 LibName70=libs/FERRITEBEAD
-LibName71=libs/lp2992
-LibName72=libs/NRF24L01
-LibName73=libs/CHIP_ANTENNA
-LibName74=libs/IRFML8244
-LibName75=libs/BAT54
-LibName76=libs/molexNoHole
+LibName71=libs/NRF24L01
+LibName72=libs/CHIP_ANTENNA
+LibName73=libs/IRFML8244
+LibName74=libs/BAT54
+LibName75=libs/molexNoHole
+LibName76=libs/tlv70033
