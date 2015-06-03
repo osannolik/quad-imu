@@ -808,13 +808,13 @@ F 3 "" H 3800 -250 60  0000 C CNN
 	1    3800 950 
 	1    0    0    -1  
 $EndComp
-Text Label 4650 1150 2    60   ~ 0
-CON_SDA
 Text Label 4650 1050 2    60   ~ 0
+CON_SDA
+Text Label 4650 1150 2    60   ~ 0
 CON_SCL
-Text Label 2950 950  0    60   ~ 0
-CON_MOSI
 Text Label 4650 950  2    60   ~ 0
+CON_MOSI
+Text Label 2950 950  0    60   ~ 0
 CON_MISO
 Text Label 4650 850  2    60   ~ 0
 CON_CLK
