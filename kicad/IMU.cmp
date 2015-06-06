@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-25 BZR 5623)-product   date = Tisdag 02 Juni 2015 19:34:12
+Cmp-Mod V01 Created by Cvpcb (2015-04-25 BZR 5623)-product   date = Lördag 06 Juni 2015 11:32:12
 
 BeginCmp
 TimeStamp = /5547C4E8/554904EA;
@@ -564,7 +564,7 @@ BeginCmp
 TimeStamp = /5547C5DB/5547D051;
 Reference = U4;
 ValeurCmp = MICRO-B_USB;
-IdModule  = open-project:MICRO-B_USB;
+IdModule  = USB-B-Micro:USB-B-Micro;
 EndCmp
 
 BeginCmp

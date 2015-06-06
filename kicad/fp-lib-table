@@ -6,4 +6,5 @@
   (lib (name DF23C-10DP-0.5V)(type KiCad)(uri "$(KIPRJMOD)/footprints/DF23C-10DP-0.5V.pretty")(options "")(descr ""))
   (lib (name molexNoHole)(type KiCad)(uri "$(KIPRJMOD)/footprints/molexNoHole.pretty")(options "")(descr ""))
   (lib (name logos)(type KiCad)(uri "$(KIPRJMOD)/footprints/logos.pretty")(options "")(descr ""))
+  (lib (name USB-B-Micro)(type KiCad)(uri "$(KIPRJMOD)/footprints/USB-B-Micro.pretty")(options "")(descr ""))
 )
