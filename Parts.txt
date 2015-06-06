@@ -28,5 +28,5 @@ Caps 10uF 0805 (dk 1276-2402-1-ND)
 Caps 22uF 0805 (dk 1276-2412-1-ND)
 
 Header female 2mm 2x5 (dk H10963-ND)
-
+USB B micro (dk 609-4052-1-ND)
 Resistors 0402 ...
