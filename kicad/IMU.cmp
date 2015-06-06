@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-25 BZR 5623)-product   date = Lördag 06 Juni 2015 11:32:12
+Cmp-Mod V01 Created by Cvpcb (2015-04-25 BZR 5623)-product   date = Lördag 06 Juni 2015 16:42:54
 
 BeginCmp
 TimeStamp = /5547C4E8/554904EA;
@@ -235,6 +235,13 @@ BeginCmp
 TimeStamp = /5547C5DB/556C8922;
 Reference = D7;
 ValeurCmp = RXLED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5547C6EF/55730B00;
+Reference = D8;
+ValeurCmp = LED;
 IdModule  = LEDs:LED-0603;
 EndCmp
 
@@ -535,6 +542,13 @@ EndCmp
 BeginCmp
 TimeStamp = /5547C5DB/556C8DEC;
 Reference = R21;
+ValeurCmp = 2k2;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5547C6EF/55730E4C;
+Reference = R22;
 ValeurCmp = 2k2;
 IdModule  = Resistors_SMD:R_0402;
 EndCmp
