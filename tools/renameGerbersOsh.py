@@ -23,7 +23,7 @@ import sys
 import os
 import zipfile
 
-def renameGerbers(dir, name):
+def renameGerbers(dirIn, name):
 
   replacePairsKicad = ["F_Cu","B_Cu","F_Mask","B_Mask","F_SilkS","B_SilkS","Edge_Cuts","In1_Cu","In2_Cu"]
   replacePairsOsh   =   [".GTL",".GBL",".GTS",".GBS",".GTO",".GBO",".GKO",".G2L",".G3L"]
@@ -32,7 +32,8 @@ def renameGerbers(dir, name):
 
   zipFiles = []
 
-  if os.path.exists(dir):
+  if os.path.exists(dirIn):
+    dir = os.path.abspath(dirIn)
     print ">  Renaming gerber files (KiCad -> Oshpark) ..."
     for f in os.listdir(dir):
       # Gerbers
@@ -41,20 +42,20 @@ def renameGerbers(dir, name):
           if f==name+"-"+K+".gbr":
             newName = name+replacePairsOsh[replacePairsKicad.index(K)]
             print ">  "+f+" -> "+newName
-            os.rename(f,newName)
-            zipFiles.append(newName)
+            os.rename(os.path.join(dir,f), os.path.join(dir,newName))
+            zipFiles.append(os.path.join(dir,newName))
 
       # Drill
       if f.endswith(replaceDrillKicad):
         if f==name+replaceDrillKicad:
           newName = name+replaceDrillOsh
           print ">  "+f+" -> "+newName
-          os.rename(f,newName)
-          zipFiles.append(newName)
+          os.rename(os.path.join(dir,f), os.path.join(dir,newName))
+          zipFiles.append(os.path.join(dir,newName))
 
   # Create zip file
   if zipFiles:
-    zipName = name+".zip"
+    zipName = os.path.join(dir, name+".zip")
     print ">  Adding files to "+zipName
     zf = zipfile.ZipFile(zipName,"w")
     for f in zipFiles:
