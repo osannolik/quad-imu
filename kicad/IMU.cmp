@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-25 BZR 5623)-product   date = Onsdag 10 Juni 2015 21:03:51
+Cmp-Mod V01 Created by Cvpcb (2015-04-25 BZR 5623)-product   date = Lördag 13 Juni 2015 15:36:53
 
 BeginCmp
 TimeStamp = /5547C4E8/554904EA;
@@ -285,6 +285,20 @@ TimeStamp = /5547C4E8/554D2B74;
 Reference = L4;
 ValeurCmp = 3n9;
 IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5547C6EF/557C39E9;
+Reference = MH1;
+ValeurCmp = Mounting;
+IdModule  = Mounting_Holes:MountingHole_2-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5547C6EF/557C3B00;
+Reference = MH2;
+ValeurCmp = Mounting;
+IdModule  = Mounting_Holes:MountingHole_2-5mm;
 EndCmp
 
 BeginCmp
