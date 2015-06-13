@@ -1,0 +1,7 @@
+!.gitignore
+kicad/gerbers/*
+!kicad/gerbers/IMU.zip
+*.bak
+*.kicad_pcb-bak
+*-cache.lib
+.DS_Store
