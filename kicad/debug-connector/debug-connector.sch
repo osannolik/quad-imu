@@ -308,7 +308,7 @@ U 1 1 55886F42
 P 6900 3200
 F 0 "P3" H 6900 3450 50  0000 C CNN
 F 1 "CONN_01X04" V 7000 3200 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 6900 3200 60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02" H 6900 3200 60  0001 C CNN
 F 3 "" H 6900 3200 60  0000 C CNN
 	1    6900 3200
 	1    0    0    -1  
