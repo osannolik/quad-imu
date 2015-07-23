@@ -1,0 +1,3 @@
+FT232R (dk 768-1008-1-ND)
+USB B micro (dk 609-4052-1-ND)
+Switch (dk SW1022CT-ND)

@@ -7,4 +7,5 @@
   (lib (name molexNoHole)(type KiCad)(uri "$(KIPRJMOD)/footprints/molexNoHole.pretty")(options "")(descr ""))
   (lib (name logos)(type KiCad)(uri "$(KIPRJMOD)/footprints/logos.pretty")(options "")(descr ""))
   (lib (name USB-B-Micro)(type KiCad)(uri "$(KIPRJMOD)/footprints/USB-B-Micro.pretty")(options "")(descr ""))
+  (lib (name B3U-3000P)(type KiCad)(uri "$(KIPRJMOD)/footprints/B3U-3000P.pretty")(options "")(descr ""))
 )
