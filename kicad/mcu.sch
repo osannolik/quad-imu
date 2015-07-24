@@ -104,7 +104,7 @@ Text HLabel 1900 1750 0    60   Output ~ 0
 MCU_TXD
 Text HLabel 1900 1850 0    60   Input ~ 0
 MCU_RXD
-Text HLabel 1900 5850 0    60   Input ~ 0
+Text HLabel 5400 1850 2    60   Input ~ 0
 PWREN#
 Text HLabel 1900 5550 0    60   Output ~ 0
 MEMS_SCLK
@@ -708,15 +708,15 @@ $EndComp
 $Comp
 L CRYSTAL X1
 U 1 1 5552DA8A
-P 5600 1900
-F 0 "X1" H 5600 2050 60  0000 C CNN
-F 1 "16MHz" H 5600 1750 60  0000 C CNN
-F 2 "Crystals_Oscillators_SMD:crystal_FA238-TSX3225" H 5600 1900 60  0001 C CNN
-F 3 "" H 5600 1900 60  0000 C CNN
-	1    5600 1900
+P 6300 1900
+F 0 "X1" H 6300 2050 60  0000 C CNN
+F 1 "16MHz" H 6300 1750 60  0000 C CNN
+F 2 "Crystals_Oscillators_SMD:crystal_FA238-TSX3225" H 6300 1900 60  0001 C CNN
+F 3 "" H 6300 1900 60  0000 C CNN
+	1    6300 1900
 	-1   0    0    1   
 $EndComp
-Text Notes 5800 1850 0    60   ~ 0
+Text Notes 6500 1850 0    60   ~ 0
 C Load = 9pF
 $Comp
 L CONN_02X05 P11
@@ -1061,17 +1061,11 @@ Connection ~ 5950 4050
 Wire Wire Line
 	5100 5050 5200 5050
 Wire Wire Line
-	5100 2050 5200 2050
+	5100 2150 6650 2150
 Wire Wire Line
-	5200 2050 5200 1900
+	6650 2150 6650 1900
 Wire Wire Line
-	5200 1900 5300 1900
-Wire Wire Line
-	5100 2150 5950 2150
-Wire Wire Line
-	5950 2150 5950 1900
-Wire Wire Line
-	5950 1900 5900 1900
+	6650 1900 6600 1900
 Wire Wire Line
 	1900 5450 2600 5450
 Wire Wire Line
@@ -1154,8 +1148,6 @@ Wire Wire Line
 	1900 4650 2600 4650
 Wire Wire Line
 	1900 4750 2600 4750
-Wire Wire Line
-	1900 5850 2600 5850
 Wire Wire Line
 	1900 2950 2600 2950
 Wire Wire Line
@@ -1343,7 +1335,7 @@ Wire Wire Line
 Connection ~ 9950 1250
 Wire Wire Line
 	5450 900  5550 900 
-Text HLabel 1900 3350 0    60   Output ~ 0
+Text HLabel 1900 3350 0    60   BiDi ~ 0
 ~ON
 $Comp
 L CONN_02X04 P1
@@ -1434,4 +1426,16 @@ Wire Wire Line
 	10350 4850 10350 4800
 Wire Wire Line
 	1900 3350 2600 3350
+Wire Wire Line
+	1900 5850 2600 5850
+Wire Wire Line
+	5100 2050 5950 2050
+Wire Wire Line
+	5950 2050 5950 1900
+Wire Wire Line
+	5950 1900 6000 1900
+Wire Wire Line
+	5400 1850 5100 1850
+Text HLabel 1900 5850 0    60   Output ~ 0
+LDO_ON
 $EndSCHEMATC
