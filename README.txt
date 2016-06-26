@@ -1,3 +1,1 @@
-IMU Project
-
-osannolik@godtycklig.se
+Quadcopter or general 6 DOF IMU
