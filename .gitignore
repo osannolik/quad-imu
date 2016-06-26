@@ -4,4 +4,8 @@ kicad/gerbers/*
 *.bak
 *.kicad_pcb-bak
 *-cache.lib
+software/build/*
+software/.cproject
+software/.project
+software/.settings/*
 .DS_Store
